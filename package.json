@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "merge-summary.helloWorld",
-        "title": "Hello World"
+        "command": "mergeSummary.showSummary",
+        "title": "Show Git Summary"
       }
     ]
   },
