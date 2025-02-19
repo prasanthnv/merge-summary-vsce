@@ -2,9 +2,9 @@
   "name": "merge-summary",
   "displayName": "Merge Summary",
   "description": "Merge Summary is a Visual Studio Code extension that generates concise summaries from Git commit history. It intelligently analyzes recent commits, merges, and changes to provide a clear, structured overview, making it easier to review code updates, track progress, and create release notes.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.90.0"
+    "vscode": "^1.74.3"
   },
   "categories": [
     "Other"
@@ -27,7 +27,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.90.0",
+    "@types/vscode": "^1.74.3",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "eslint": "^9.19.0",
@@ -35,5 +35,10 @@
     "@vscode/test-electron": "^2.4.1"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
- "icon": "images/icon.png"
+ "icon": "images/icon.png",
+ "publisher": "prasanthnv",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/prasanthnv/merge-summary-vsce"
+ }
 }
